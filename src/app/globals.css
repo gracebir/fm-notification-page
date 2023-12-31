@@ -15,3 +15,7 @@
     --very-dark-blue: hsl(224, 21%, 14%);
   }
 }
+
+body::-webkit-scrollbar {
+  width: .8em;
+}

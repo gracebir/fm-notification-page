@@ -20,7 +20,7 @@ const Notifications = () => {
                     Mark all as read
                 </span>
             </div>
-            <div className='flex flex-col gap-4'>
+            <div className='flex flex-col gap-4 dvh70 overflow-y-scroll'>
                 {datas.map((item) => (
                     <Message
                         replyText={item.replyText!}
